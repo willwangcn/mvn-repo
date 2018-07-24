@@ -59,7 +59,7 @@
                     <message>Creating site for ${project.version}</message>
                     <branch>refs/heads/mvn-repo</branch>
                     <noJekyll>true</noJekyll>
-                    <outputDirectory>${project.build.directory}/ik-analyzer-synonym</outputDirectory>
+                    <outputDirectory>${project.build.directory}</outputDirectory>
                     <repositoryName>mvn-repo</repositoryName>
                     <repositoryOwner>willwangcn</repositoryOwner>
                     <includes>
